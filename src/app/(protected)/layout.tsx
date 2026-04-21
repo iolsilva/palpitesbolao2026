@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '../../lib/supabase/server'
 import AppHeader from '../../components/layout/app-header'
+import MobileBottomNav from '../../components/layout/mobile-bottom-nav'
 
 export default async function ProtectedLayout({
   children,
@@ -34,7 +35,12 @@ export default async function ProtectedLayout({
       ) : (
         <>
           <AppHeader userName={userName} userRole={userRole} />
-          <div className="pb-10">{children}</div>
+
+          <div className="mx-auto max-w-7xl pb-28 md:pb-10">
+            {children}
+          </div>
+
+          <MobileBottomNav userRole={userRole} />
         </>
       )}
     </div>
