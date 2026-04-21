@@ -22,11 +22,11 @@ export default async function DashboardPage() {
           <div className="bg-[radial-gradient(circle_at_top_left,rgba(34,197,94,0.25),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.25),transparent_32%)] p-8 sm:p-10">
             <div className="max-w-3xl">
               <p className="inline-flex rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">
-                Painel da resenha
+                Painel dos caras
               </p>
 
               <h1 className="mt-4 text-3xl font-black tracking-tight sm:text-4xl">
-                Seus palpites, rankings e tudo o que quiser fazer, sem ficar me enchendo o saco.
+                Dê seus palpites, faça rankings e tudo o que quiser, sem me encher o saco
               </h1>
 
               <p className="mt-4 text-base leading-7 text-slate-300">
@@ -86,7 +86,7 @@ export default async function DashboardPage() {
             </div>
             <h2 className="text-xl font-bold text-slate-900">Ranking</h2>
             <p className="mt-2 text-sm leading-6 text-slate-600">
-              Veja a disputa da rodada, do mês e a classificação geral.
+              Resultado da rodada, do mês e a classificação geral.
             </p>
           </a>
 

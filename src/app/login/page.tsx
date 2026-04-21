@@ -43,15 +43,15 @@ export default function LoginPage() {
           <section className="flex flex-col justify-center">
             <div className="max-w-2xl">
               <span className="inline-flex rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">
-                Resenha da rodada
+                Aqueles Caras
               </span>
 
               <h1 className="mt-6 text-4xl font-black tracking-tight text-white sm:text-5xl">
-                O campeonato da turma agora tem cara de app de verdade.
+                O campeonato dos alfas agora tem cara de app de verdade.
               </h1>
 
               <p className="mt-5 max-w-xl text-base leading-7 text-slate-300">
-                Envie seus palpites, acompanhe o ranking, compare resultados com a galera
+                Envie seus palpites, acompanhe o ranking, compare resultados com os demais
                 e veja quem realmente entende de futebol.
               </p>
 
