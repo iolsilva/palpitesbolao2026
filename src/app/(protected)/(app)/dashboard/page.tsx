@@ -40,7 +40,7 @@ export default async function DashboardPage() {
         <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           <a
             href="/rodada"
-            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
+            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
           >
             <div className="mb-4 inline-flex rounded-2xl bg-emerald-100 px-3 py-2 text-sm font-bold text-emerald-700">
               Palpitar
@@ -53,7 +53,7 @@ export default async function DashboardPage() {
 
           <a
             href="/meus-palpites"
-            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
+            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
           >
             <div className="mb-4 inline-flex rounded-2xl bg-blue-100 px-3 py-2 text-sm font-bold text-blue-700">
               Conferência
@@ -66,7 +66,7 @@ export default async function DashboardPage() {
 
           <a
             href="/palpites-da-rodada"
-            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
+            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
           >
             <div className="mb-4 inline-flex rounded-2xl bg-amber-100 px-3 py-2 text-sm font-bold text-amber-700">
               Comparação
@@ -79,7 +79,7 @@ export default async function DashboardPage() {
 
           <a
             href="/ranking"
-            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
+            className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
           >
             <div className="mb-4 inline-flex rounded-2xl bg-violet-100 px-3 py-2 text-sm font-bold text-violet-700">
               Classificação
@@ -93,7 +93,7 @@ export default async function DashboardPage() {
           {userRole === 'admin' && (
             <a
               href="/admin"
-              className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg md:col-span-2 xl:col-span-4"
+              className="rounded-[2rem] border border-white/60 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-[0.99]"
             >
               <div className="mb-4 inline-flex rounded-2xl bg-slate-200 px-3 py-2 text-sm font-bold text-slate-700">
                 Painel
