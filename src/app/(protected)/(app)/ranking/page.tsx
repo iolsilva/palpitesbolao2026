@@ -237,10 +237,10 @@ function RankingSection({
           <section className="grid gap-4 md:grid-cols-3">
             {podium.map((item, index) => {
             const styles = [
-  'bg-amber-50 border-amber-200',
-  'bg-slate-100 border-slate-200',
-  'bg-orange-50 border-orange-200',
-]
+              'bg-amber-50 border-amber-300 shadow-md md:-translate-y-1 scale-[1.02]',
+              'bg-slate-100 border-slate-200',
+              'bg-orange-50 border-orange-200',
+            ]
 
             const badgeStyles = [
               'bg-amber-400 text-slate-950',
