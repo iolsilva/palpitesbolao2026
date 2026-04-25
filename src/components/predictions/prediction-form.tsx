@@ -78,9 +78,12 @@ export default function PredictionForm({
       pick: predictions[match.id],
     }))
 
-    const { error } = await supabase
-      .from('predictions')
-      .upsert(payload, { onConflict: 'match_id,user_id' })
+    const { error } = await supabase.rpc('submit_predictions', {
+  p_predictions: payload.map((item) => ({
+    match_id: item.match_id,
+    pick: item.pick,
+  })),
+})
 
     setLoading(false)
 
